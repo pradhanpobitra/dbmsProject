@@ -1,0 +1,26 @@
+body {
+	background: url(https://images.squarespace-cdn.com/content/v1/572ab725e3214012ea29b220/1462816108575-ERGG897DBRYASB9MPL11/ke17ZwdGBToddI8pDm48kKV0nEQLrZCZyN20-sdpYlF7gQa3H78H3Y0txjaiv_0fYiipkZ87xgDekDUjSlg8vkwqN9guzOIbFq00lUwhe0P2xmhu7ixOWW9sqzK49bT9ZGjoBKy3azqku80C789l0hx0TKp4jCW7sB_BGURRbuUq1GnChAdm1kWqJMN6QQnINecPCCdkoaaPpCbD5kLt_Q/ab-growth-form-background.jpg?format=1500w);
+}
+
+.sticky-top {
+	height: 50px;
+	text-align: center;
+}
+
+h3 {
+	
+	margin: auto;
+	color: white;
+}
+
+#loginForm {
+	margin-top: 100px;
+}
+
+h6 {
+	margin-top: 15px;
+}
+
+#submitbtn {
+	margin-top: 10px;
+}

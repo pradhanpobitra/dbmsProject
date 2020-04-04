@@ -1,0 +1,74 @@
+body {
+	background: url(https://cms.qz.com/wp-content/uploads/2019/09/Road-construction1.jpg?quality=75&strip=all&w=1600&h=900&crop=1);
+	background-size: cover;
+}
+
+.btn {
+	width: 240px;
+	height: 60px;
+	background-color: rgb(150,20,23);
+	margin-right: 25px;
+}
+
+.tabs {
+	text-decoration-color: black;
+}
+
+#span1 {
+	font-size: 0.75em;
+}
+
+#h {
+	color: rgba(20,200,200,0.9);
+}
+
+.navFRONT {
+	width: 75%;
+}
+
+#con1 {
+	width:420px;
+	margin-left: 200px;
+	border-top: 1px solid black;
+}
+
+.jumbotron {
+	background-color:  rgba(30,45,100,0.4);
+	height: 400px;
+	margin-top: 100px;
+}
+
+#brandname {
+	font-size: 80px;
+	color: #75DA8B;
+}
+
+#bgrnd {
+	height: 150px;
+}
+
+#jmb1 {
+	margin-top: 40px;
+}
+
+
+p {
+	font-size: 20px;
+	color: rgba(20,200,200,0.9);
+}
+
+.sticky-top {
+	height: 50px;
+	text-align: center;
+}
+
+h3 {
+	
+	margin: auto;
+	color: white;
+}
+
+#dummy {
+	margin-top: 120px;
+}
+
