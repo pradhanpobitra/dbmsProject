@@ -1,15 +1,42 @@
 h3 {
+	
 	margin: auto;
 	color: white;
 }
 
-body {
-	background: url(https://images.squarespace-cdn.com/content/v1/572ab725e3214012ea29b220/1462816108575-ERGG897DBRYASB9MPL11/ke17ZwdGBToddI8pDm48kKV0nEQLrZCZyN20-sdpYlF7gQa3H78H3Y0txjaiv_0fYiipkZ87xgDekDUjSlg8vkwqN9guzOIbFq00lUwhe0P2xmhu7ixOWW9sqzK49bT9ZGjoBKy3azqku80C789l0hx0TKp4jCW7sB_BGURRbuUq1GnChAdm1kWqJMN6QQnINecPCCdkoaaPpCbD5kLt_Q/ab-growth-form-background.jpg?format=1500w);
+.container {
+	margin-top: 40px;
 }
 
-#ghy {
-	font-family: bold;
-	font-size: 40px;
-	margin-top: 30px;
+body {
+	background: url(https://images.squarespace-cdn.com/content/v1/572ab725e3214012ea29b220/1462816108575-ERGG897DBRYASB9MPL11/ke17ZwdGBToddI8pDm48kKV0nEQLrZCZyN20-sdpYlF7gQa3H78H3Y0txjaiv_0fYiipkZ87xgDekDUjSlg8vkwqN9guzOIbFq00lUwhe0P2xmhu7ixOWW9sqzK49bT9ZGjoBKy3azqku80C789l0hx0TKp4jCW7sB_BGURRbuUq1GnChAdm1kWqJMN6QQnINecPCCdkoaaPpCbD5kLt_Q/ab-growth-form-background.jpg?format=1500w);
+	background-size: cover;
+
+}
+label {
+	font-family: arial;
+	color: white;
+}
+
+#txt1 {
+	font-family: arial;
+	font-weight: 600;
+	font-size: 20px;
 	text-align: center;
+}
+
+.btn {
+	margin-top: 30px;
+}
+
+.inputAddress {
+	margin-top: 20px;
+}
+
+#add {
+	margin-top: 20px;
+}
+
+#hhh {
+	margin-top: 20px;
 }

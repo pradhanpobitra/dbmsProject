@@ -1,0 +1,81 @@
+h3 {
+	
+	margin: auto;
+	color: white;
+}
+#head {
+	margin-top: 100px;
+	color: white;
+}
+
+#em2 {
+	margin-top: 20px;
+}
+
+body {
+	
+	background: url(https://images.squarespace-cdn.com/content/v1/572ab725e3214012ea29b220/1462816108575-ERGG897DBRYASB9MPL11/ke17ZwdGBToddI8pDm48kKV0nEQLrZCZyN20-sdpYlF7gQa3H78H3Y0txjaiv_0fYiipkZ87xgDekDUjSlg8vkwqN9guzOIbFq00lUwhe0P2xmhu7ixOWW9sqzK49bT9ZGjoBKy3azqku80C789l0hx0TKp4jCW7sB_BGURRbuUq1GnChAdm1kWqJMN6QQnINecPCCdkoaaPpCbD5kLt_Q/ab-growth-form-background.jpg?format=1500w);
+	background-size: cover;
+}
+.hr1 {
+	border-top: 1px solid rgba(45,34,100,0.5);
+}
+
+.titles {
+	/*width: 25%;*/
+	margin-top: 20px;
+	font-size: 20px;
+	font-family: Gotu;
+	font-weight: 700;
+	float: left;
+	width: 25%;
+	text-align: center;
+	border-bottom: 1px solid rgba(45,34,100,0.5);
+
+}
+
+.row {
+	border-bottom: 1px solid rgba(45,34,100,0.5);
+}
+
+.ti {
+	margin-right: 12.5%;
+}
+
+.elements {
+	margin-top: 40px;
+	font-size: 15px;
+	font-family: Gotu;
+	font-weight: 700;
+	float: left;
+	width: 25%;
+	text-align: center;
+	height: 100px;
+}
+
+.ele {
+	margin-right: 12.5%;
+}
+
+
+#hehe {
+	background: rgba(10,10,10,0.3);
+}
+
+
+.data {
+
+	float: left;
+	width: 25%;
+	margin-top: 30px;
+	font-size: 18px;
+	font-family: arial;
+	font-weight: 700;
+	text-align: center;
+	height: 100px;
+}
+
+.dt {
+	margin-right: 12.5%;
+}
+

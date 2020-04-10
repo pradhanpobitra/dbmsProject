@@ -1,0 +1,80 @@
+<?php
+	include 'dbconnection.php';
+?>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Your Complaints</title>
+	<link rel="stylesheet" type="text/css" href="allcomplaintsofauserstyle.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+		
+		
+		<h3>Bad Roads' Reports</h3>
+		<ul class="nav justify-content-end">
+			<li class="nav-item">
+				<a href="index.html">Logout</a>
+			</li>
+		</ul>
+
+	</nav>
+
+	<div class="container">
+		<div id= "hehe">
+			 <h4 id="head">Filed Complaints</h4>
+			 <hr class="hr1">
+
+			 <div class="titles ti">Image</div>
+
+			 <div class="titles ti">Description</div>
+
+			 <div class="titles ">Status</div>
+				
+		</div>
+
+		<?php
+
+		if(  isset($_GET['email']) )
+		{
+			$email = $_GET['email'];
+			$sql = 'select * from allcomplaints where email = "'.$email.'";' ;
+
+			$results  = mysqli_query($conn , $sql) ;
+			$datas = [];
+			while ($x = mysqli_fetch_assoc($results))
+			{
+				echo '<div class="data dt"> <a  href="photo.php?img='.$x["img_dir"].'">Click to view</a></div> <div class="data dt">'.$x["description"].'</div> <div class="data">'.$x["stats"].'</div> <br>';
+			}
+		}
+
+
+		else if(isset($_POST['email2']) )
+		{
+			$email = $_POST['email2'];
+			$sql = 'select * from allcomplaints where email = "'.$email.'";' ;
+
+			$results  = mysqli_query($conn , $sql) ;
+			$datas = [];
+			while ($x = mysqli_fetch_assoc($results))
+			{
+				echo '<div class="data dt"> <a  href="photo.php?img='.$x["img_dir"].'">Click to view</a></div> <div class="data dt">'.$x["description"].'</div> <div class="data">'.$x["stats"].'</div> <br>';
+			}
+		}
+
+		else
+		{
+
+			
+			header("Location: complaint.html?checkStatus=error");
+		
+		}
+		?>
+
+	</div>
+</body>
+</html>

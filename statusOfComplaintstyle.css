@@ -1,0 +1,17 @@
+h3 {
+	
+	margin: auto;
+	color: white;
+}
+
+.tabledivs {
+	float: left;
+	width: 20%;
+	height: 70px;
+	color: green;
+	margin-left: 4%;
+	/*border-right: 2px solid grey;*/
+	text-align: center;
+	margin-top: 30px;
+	padding-top: 10px;
+}
